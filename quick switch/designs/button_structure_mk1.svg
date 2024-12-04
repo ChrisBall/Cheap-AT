@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="button_structure_mk1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="4.7572176"
+     inkscape:cx="410.42899"
+     inkscape:cy="442.17023"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       units="mm"
+       spacingx="1"
+       spacingy="1"
+       empspacing="10"
+       originx="0"
+       originy="0"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#008000;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+       id="rect444"
+       width="30.000002"
+       height="1"
+       x="90"
+       y="115" />
+    <path
+       id="path722"
+       style="opacity:1;fill:#808080;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+       d="m 88.00015,110.99993 -2.7e-4,6 h -4.000272 v 1.99988 L 126,118.99988 V 117 h -4.00027 L 122,111 h -0.99994 l -0.99994,0.99994 0.99994,0.99994 L 121,115 h -1 v 1 H 90 v -1 h -1 l 8.9e-5,-2.00019 0.999939,-0.99994 -0.999939,-0.99994 z"
+       sodipodi:nodetypes="ccccccccccccccccccccc" />
+    <g
+       id="g859">
+      <rect
+         style="opacity:1;fill:#000000;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         id="rect789"
+         width="4"
+         height="3"
+         x="111"
+         y="109.99999" />
+      <rect
+         style="opacity:1;fill:#4d4d4d;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         id="rect787"
+         width="6"
+         height="3"
+         x="109.99999"
+         y="112" />
+    </g>
+    <g
+       id="g859-8"
+       transform="translate(-16.000001)">
+      <rect
+         style="opacity:1;fill:#000000;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         id="rect789-6"
+         width="4"
+         height="3"
+         x="111"
+         y="109.99999" />
+      <rect
+         style="opacity:1;fill:#4d4d4d;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         id="rect787-0"
+         width="6"
+         height="3"
+         x="109.99999"
+         y="112" />
+    </g>
+    <path
+       id="rect232"
+       style="opacity:1;fill:#ff0000;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+       d="M 91.00013 104.99979 A 3 2.9999998 0 0 0 87.999797 108.00013 L 89.000252 110 L 89.999674 110.99994 L 90.000191 111.99988 L 89.000252 112.99982 L 90.000191 113.99976 L 91.00013 113.99976 L 93.999947 110 L 100.0001 110 L 102.99991 113.99976 L 107.00019 113.99976 L 110 110 L 116.00015 110 L 118.99997 113.99976 L 119.99991 113.99976 L 121.00037 112.99982 L 120.00043 111.99988 L 119.99991 110.99994 L 120.99985 110 L 121.99979 108.00013 A 3 2.9999998 0 0 0 118.99997 104.99979 L 91.00013 104.99979 z " />
+  </g>
+</svg>
