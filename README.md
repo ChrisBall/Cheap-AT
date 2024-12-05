@@ -1,5 +1,5 @@
 # Cheap AT
- Repository for cheap Accessible Tech and Accessible Music Tech
+ Repository for cheap Assistive Tech and Accessible Music Tech
 
  Currently seeking help to develop and improve these repositories.
 
