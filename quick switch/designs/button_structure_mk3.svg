@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.209938mm"
+   height="51.473049mm"
+   viewBox="0 0 87.209938 51.473049"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="button_structure_mk3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.8409652"
+     inkscape:cx="331.76165"
+     inkscape:cy="49.942614"
+     inkscape:window-width="1600"
+     inkscape:window-height="1129"
+     inkscape:window-x="1432"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       units="mm"
+       spacingx="1"
+       spacingy="1"
+       empspacing="10"
+       originx="-83.784736"
+       originy="-149.95015" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-83.784736,-149.95015)">
+    <path
+       id="path817"
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       d="m 101.89962,174.24767 v 5.00021 0.99994 1.99988 h 51.99993 v -2.99982 -5.00021 h -0.99994 l -1.00046,1.00046 1.00046,0.99993 v 2.99982 h -50.00005 v -2.99982 l 0.99993,-0.99993 -0.99993,-1.00046 z" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       id="rect219"
+       width="7"
+       height="5"
+       x="124.39938"
+       y="173.24788" />
+    <rect
+       style="fill:#666666;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       id="rect109"
+       width="12"
+       height="3.5"
+       x="121.89938"
+       y="174.74788" />
+    <rect
+       style="fill:#008000;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       id="rect273"
+       width="50"
+       height="1.6"
+       x="102.89937"
+       y="178.24788" />
+    <path
+       id="path543"
+       style="fill:#008000;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       d="m 104.89936,168.24804 -3,2.99985 v 1 l 0.99987,0.99989 1,1 v 1 l -1,1 1.3e-4,1.00011 16.49997,0.49983 v -2.49959 l 1.99988,-2.0004 h 13.00024 l 1.99988,2.0004 v 2.49959 l 16.49982,-0.49972 2.2e-4,-1.00011 -1,-1 v -1 l 1,-1 1,-1 2.4e-4,-1.00004 -3.00033,-2.99981 z"
+       sodipodi:nodetypes="ccccccccccccccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.162px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       x="96.649017"
+       y="178.12749"
+       id="text600-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial;fill:#000000;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+         x="96.649017"
+         y="178.12749"
+         id="tspan1085-1">2t</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.777189px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       x="99.060959"
+       y="178.15894"
+       id="text600-5-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial;fill:#000000;stroke:none;stroke-width:0.1;stroke-dasharray:none"
+         x="99.060959"
+         y="178.15894"
+         id="tspan1085-1-0">t</tspan></text>
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       d="M 102.89936,177.24789 H 97.899362"
+       id="path1093" />
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       d="M 102.89936,178.24789 H 97.899362"
+       id="path1095" />
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       d="M 119.39933,177.74772 H 99.35637"
+       id="path1221" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;stroke:none;stroke-width:0.1;stroke-linecap:round;stop-color:#000000"
+       x="113.70681"
+       y="191.66309"
+       id="text855"><tspan
+         sodipodi:role="line"
+         id="tspan853"
+         style="stroke-width:0.1;fill:#000000;stroke:none"
+         x="113.70681"
+         y="191.66309">t = button travel</tspan></text>
+  </g>
+</svg>

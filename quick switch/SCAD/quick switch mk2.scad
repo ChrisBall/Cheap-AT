@@ -21,11 +21,11 @@ baseDiameter=76;
 baseHoles = 6;
 baseHoleDiameter=4;
 baseThickness=2.5;
-baseClaspWidth=30;  //in degrees
+baseClaspWidth=15;  //in degrees
 baseClaspGap=2;     //in degrees
 baseClaspTravelGap=0.4; //in degrees
-baseClasps=4;
-baseClaspOffset=45; //in degrees
+baseClasps=8;
+baseClaspOffset=180/baseClasps; //in degrees
 
 claspAngleLength=1; //how many mm a clasp "angle" is
 claspOverlap=0.8;   //clasp depth
@@ -172,7 +172,7 @@ module clasps(renderTravel=false){
                 ]);
             }
         }else{
-            for(a=[baseClaspOffset:360/baseClasps:360+baseClaspOffset]){
+            #for(a=[baseClaspOffset:360/baseClasps:360+baseClaspOffset]){
                 linear_extrude(100)
                 polygon([
                 [0,0],
