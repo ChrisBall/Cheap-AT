@@ -10,7 +10,7 @@ There have been 3 versions so far:
 
 * mk 1 used multiple placed switches to achieve reliable actuation when pressed anywhere, but early tests by users found the tactile response and multiple "clicks" unpleasant. Files for this version are not included anywhere.
 * mk 2 just used one centre switch in a 12x12 SMD package, and improved upon various physical aspects of the design.
-* mk 3 improves more reliably actuates when pressed anywhere, and is less breakable.
+* mk 3 more reliably actuates when pressed anywhere, and is less breakable.
 
 
 
@@ -54,10 +54,5 @@ You can use a mono (or stereo) jack cable to connect the switch to your device.
 
 * Refactor, improve and modularise SCAD file
 * Support generating PCB outlines and component positions from SCAD file, so more customisable designs are possible.
-* Add support for directly soldering wire to board 
+* Add support for directly soldering wire to board
 * Further improve durability: perhaps by adding tougher clasps or using a different system entirely.
-
-
-
-
-
