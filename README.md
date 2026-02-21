@@ -1,11 +1,11 @@
 # Cheap AT
- Repository for cheap Accessible Tech and Accessible Music Tech
+ Repository for cheap Assistive Tech and Accessible Music Tech
 
  Currently seeking help to develop and improve these repositories.
 
  Switch Hub - Contains files necessary to reproduce an 8-input HID MIDI switch hub, based on the XIAO ESP32S3 dev board. This means you can connect accessibility switches to this box and plug it into your computer, and you'll get musical MIDI data when you press the attached switches.
 
- Quick Switch - A simple design for a 3D printed accessibility switch (developed in OpenSCAD) that is made of 3 parts: a top; a base; and a PCB. The design is durable and extremely cheap to manufacture, although could stand to be improved; the switch requires different levels of pressure depending on where you press it.
+ Quick Switch - A simple design for a 3D printed accessibility switch (developed in OpenSCAD) that is made of 3 parts: a top; a base; and a PCB. The design is extremely cheap & simple to manufacture, although could stand to be improved; the switch requires different levels of pressure depending on where you press it, and is not especially durable.
 
 
  Desired Improvements:
