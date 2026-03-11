@@ -6,12 +6,26 @@
 #include "USBMIDI.h"
 #include <EEPROM.h>  //built in 2.0.0
 
+//BLE includes
+#include <BLEDevice.h>
+#include <BLEUtils.h>
+#include <BLEServer.h>
+#include <BLE2902.h>
+
 #define NUM_INPUTS 8
 #define EEPROM_SIZE NUM_INPUTS * 5 + 1  //5 bytes for each input's channel, note, velocity, min on time, and retrigger time; and an init flag
 
+// UUIDs for BLE MIDI
+#define MIDI_SERVICE_UUID         "03B80E5A-EDE8-4B33-A751-6CE34EC4C700"
+#define MIDI_CHARACTERISTIC_UUID  "7772E5DB-3868-4112-A1A9-F2669D106BF3"
+
 USBMIDI MIDI;
 
-const int pins[NUM_INPUTS] = { 1, 2, 4, 43, 44, 7, 8, 9 };
+// BLE Server and Characteristic
+BLEServer *pServer = nullptr;
+BLECharacteristic *pCharacteristic = nullptr;
+
+const int pins[NUM_INPUTS] = { 1, 2, 3, 4, 5, 6, 7, 8 };
 boolean states[NUM_INPUTS] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 
 //factory defaults
@@ -21,6 +35,7 @@ const byte defaultVelocity[NUM_INPUTS] = { 64, 64, 64, 64, 64, 64, 64, 64 };
 const byte defaultMinTime[NUM_INPUTS] = { 0, 0, 0, 0, 0, 0, 0 };
 const byte defaultRetrigger[NUM_INPUTS] = { 0, 0, 0, 0, 0, 0, 0 };
 
+//replace with settings struct
 //variables
 byte scale[NUM_INPUTS] = { 60, 62, 64, 65, 67, 69, 71, 72 };
 byte channel[NUM_INPUTS] = { 0, 0, 0, 0, 0, 0, 0 };
@@ -30,6 +45,7 @@ byte retrigger[NUM_INPUTS] = { 0, 0, 0, 0, 0, 0, 0 };
 
 const uint32_t debounceTime = 20;
 uint32_t lastAction[NUM_INPUTS] = { 0, 0, 0, 0, 0, 0, 0, 0 };
+
 
 void setup() {
   Serial.begin(115200);

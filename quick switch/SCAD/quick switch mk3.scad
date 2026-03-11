@@ -47,7 +47,7 @@ topRounding=topHeight*.333; //rounded top radius
 topFitError=0;
 
 drawBase=true;             //render button base
-drawTop=true;               //render button top
+drawTop=false;               //render button top
 crossSection=false;         //see cross section
 crossSectionAngle=-90+180/(baseClasps);      
 
@@ -72,15 +72,21 @@ difference(){
                     //remaining button base
                     if(screwMount)cylinder(d=baseDiameter,h=baseThickness);
                     difference(){
-                        cylinder(d=pcbDiameter+(claspOverlap+wallThickness)*2,h=baseThickness+pcbHeightOffset+pcbThickness);
+                        union(){
+                            intersection(){
+                                unclaspIntersection();
+                                cylinder(d=pcbDiameter+(claspOverlap+wallThickness)*2,h=baseThickness+pcbHeightOffset+pcbThickness);
+                            }
+                            cylinder(d=pcbDiameter,h=baseThickness+pcbHeightOffset+pcbThickness);
+                        }
                         translate([0,0,baseThickness+pcbHeightOffset])//cylinder(d=pcbDiameter+e2,h=pcbThickness);  //old circular PCB
-                        linear_extrude(pcbThickness)
+                        linear_extrude(pcbThickness+0.01)
                         offset(error)import("PCB outline.svg");
                     }
                 }
                 
                 //jack cutout
-                #translate([0,0,baseThickness+pcbHeightOffset+pcbThickness+jackPlugSize*.5]){
+                translate([0,0,baseThickness+pcbHeightOffset+pcbThickness+jackPlugSize*.5]){
                     rotate([0,90,-90]){
                         union(){
                             cylinder(d=jackPlugSize+e2,h=100);
@@ -217,14 +223,18 @@ module unclasps(){
                 cyl(d=pcbDiameter+claspOverlap*2,h=baseHeight,anchor=BOTTOM);
             }
 
-            for(a=[baseClaspOffset:360/baseClasps:360+baseClaspOffset]){
-                linear_extrude(100)
-                polygon([
-                [0,0],
-                [100*cos(a+baseClaspWidth*.5+baseClaspGap*.5),100*sin(a+baseClaspWidth*.5+baseClaspGap*.5)],
-                [100*cos(a+360/baseClasps-baseClaspWidth*.5-baseClaspGap*.5),100*sin(a+360/baseClasps-baseClaspWidth*.5-baseClaspGap*.5)]
-                ]);
-            }
+            unclaspIntersection();
         }
+    }
+}
+
+module unclaspIntersection(){
+    for(a=[baseClaspOffset:360/baseClasps:360+baseClaspOffset]){
+        linear_extrude(100)
+        polygon([
+        [0,0],
+        [100*cos(a+baseClaspWidth*.5+baseClaspGap*.5),100*sin(a+baseClaspWidth*.5+baseClaspGap*.5)],
+        [100*cos(a+360/baseClasps-baseClaspWidth*.5-baseClaspGap*.5),100*sin(a+360/baseClasps-baseClaspWidth*.5-baseClaspGap*.5)]
+        ]);
     }
 }
